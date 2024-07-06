@@ -1,0 +1,106 @@
+/* Reset styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa; /* Light background for the entire page */
+    color: #333333; /* Dark text color */
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto; /* Center container horizontally */
+    background-color: #f4f4f4; /* Light gray background for content */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Light shadow */
+  }
+  
+  header {
+    background: #dc3545; /* Red header background */
+    color: #ffffff; /* White text color */
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow for depth */
+  }
+  
+  nav {
+    background: #343a40; /* Dark background for navigation */
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: #ffffff; /* White text color */
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555555; /* Darker background on hover */
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .content section {
+    margin-bottom: 30px;
+  }
+  
+  .content h2 {
+    color: #dc3545; /* Red heading color */
+    border-bottom: 2px solid #dc3545; /* Red underline */
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    text-transform: uppercase; /* Uppercase text */
+    font-size: 1.8em;
+  }
+  
+  .content h3 {
+    color: #343a40; /* Dark heading color */
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    color: #666666; /* Gray text color */
+    line-height: 1.8;
+  }
+  
+  .content a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+  }
+  
+  .content a:hover {
+    text-decoration: underline;
+  }
+  
+  .content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Center images */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+  }
+  
